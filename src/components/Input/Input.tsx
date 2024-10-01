@@ -16,6 +16,7 @@ const Input = ({
   inputSize = 'medium',
   variant = 'default',
   icon,
+  disabled,
   className,
   ...restProps
 }: InputProps) => {
@@ -27,7 +28,13 @@ const Input = ({
   return (
     <div className={styles.wrapper}>
       <span className={styles.icon}>{icon}</span>
-      <input className={classNames} type="text" placeholder={placeholder} {...restProps} />
+      <input
+        className={classNames}
+        type="text"
+        disabled={disabled}
+        placeholder={placeholder}
+        {...restProps}
+      />
     </div>
   );
 };
