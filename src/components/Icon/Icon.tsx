@@ -4,8 +4,19 @@ import sprites from '../../../public/svg/sprites.svg';
 import cn from 'classnames';
 import styles from './Icon.module.scss';
 
+type IconType =
+  | 'cart'
+  | 'heart'
+  | 'trash'
+  | 'checkmark'
+  | 'warning'
+  | 'success'
+  | 'error'
+  | 'eye-on'
+  | 'eye-off';
+
 interface IconProps extends SVGProps<SVGSVGElement> {
-  icon: string;
+  icon: IconType;
   size?: number;
   color?: string;
   hover?: boolean;
@@ -14,7 +25,7 @@ interface IconProps extends SVGProps<SVGSVGElement> {
 
 const Icon = ({
   icon,
-  size = 16,
+  size = 24,
   color = 'currentColor',
   hover = false,
   className,

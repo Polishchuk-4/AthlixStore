@@ -1,0 +1,77 @@
+@import '../../scss/utils';
+
+.wrapper {
+  display: inline-block;
+  position: relative;
+
+  .input {
+    outline: none;
+    border: 1px solid $black-color;
+    padding: 13px 20px;
+    background-color: $white-color;
+    color: $black-color;
+    caret-color: $main-color;
+    height: 50px;
+    @include text(20px, 400, 24.2px);
+
+    &.small {
+      width: 251px;
+    }
+
+    &.medium {
+      width: 414px;
+    }
+
+    &.large {
+      width: 522px;
+    }
+
+    &:hover {
+      border: 1px solid $main-color;
+      transition: 0.2s ease-in;
+    }
+
+    &:focus {
+      border: 1px solid $main-color;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background: $background-color;
+      border: 1px solid $grey-color;
+    }
+
+    &::placeholder {
+      color: $dark-grey-color;
+    }
+
+    &.success {
+      border: 1px solid $success-color;
+      caret-color: $black-color;
+    }
+
+    &.error {
+      border: 1px solid $error-color;
+      caret-color: $black-color;
+    }
+
+    &.warning {
+      border: 1px solid $warning-color;
+      caret-color: $black-color;
+    }
+  }
+
+  .passwordIcon {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+  }
+
+  .icon {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 13px;
+  }
+}
