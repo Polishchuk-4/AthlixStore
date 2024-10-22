@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+}
+.navPages {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  column-gap: 70px;
+}
+.navLink {
+  color: inherit;
+}
+.navButtons {
+  display: flex;
+  column-gap: 40px;
+}
+.navBtn {
+  color: inherit;
+}

@@ -1,0 +1,18 @@
+.imageCard {
+  &.small {
+    width: 101px;
+    height: 36px;
+  }
+  &.medium {
+    width: 116px;
+    height: 40px;
+  }
+  &.big {
+    width: 262px;
+    height: 101px;
+  }
+}
+.imageCardImg {
+  width: 100%;
+  height: 100%;
+}
