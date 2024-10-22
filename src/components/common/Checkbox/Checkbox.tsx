@@ -4,11 +4,11 @@ import cn from 'classnames';
 import styles from './Checkbox.module.scss';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { AppDispatch } from '../../redux/store';
+import { AppDispatch } from '../../../redux/store';
 
-import { selectCategoriesFilters } from '../../redux/filters/selectors';
+import { selectCategoriesFilters } from '../../../redux/filters/selectors';
 
-import { addCategoriesFilters, removeCategoriesFilters } from '../../redux/filters/slice';
+import { addCategoriesFilters, removeCategoriesFilters } from '../../../redux/filters/slice';
 
 type CheckboxProps = {
   label: string;

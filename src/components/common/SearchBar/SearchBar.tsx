@@ -1,5 +1,3 @@
-import { IoIosSearch } from 'react-icons/io';
-
 import cn from 'classnames';
 
 import style from './SearchBar.module.scss';
