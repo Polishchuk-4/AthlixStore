@@ -1,5 +1,5 @@
 import { SVGProps, useMemo } from 'react';
-import sprites from '../../../public/svg/sprites.svg';
+import sprites from '../../../../public/svg/sprites.svg';
 
 import cn from 'classnames';
 import styles from './Icon.module.scss';
@@ -13,7 +13,8 @@ type IconType =
   | 'success'
   | 'error'
   | 'eye-on'
-  | 'eye-off';
+  | 'eye-off'
+  | 'search';
 
 interface IconProps extends SVGProps<SVGSVGElement> {
   icon: IconType;

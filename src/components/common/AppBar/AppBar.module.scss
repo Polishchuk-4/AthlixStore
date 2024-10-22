@@ -1,0 +1,22 @@
+@import '../../../scss/base';
+@import '../../../scss/utils';
+
+.header {
+  border-bottom: 1px solid $main-color;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.items {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.row {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}

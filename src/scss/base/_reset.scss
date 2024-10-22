@@ -1,52 +1,131 @@
-/*
-  1. Use a more-intuitive box-sizing model.
-*/
-*, *::before, *::after {
-    box-sizing: border-box;
-  }
-  
-  /*
-    2. Remove default margin
-  */
-  * {
-    margin: 0;
-  }
-  
-  /*
-    Typographic tweaks!
-    3. Add accessible line-height
-    4. Improve text rendering
-  */
-  body {
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-  }
-  
-  /*
-    5. Improve media defaults
-  */
-  img, picture, video, canvas, svg {
-    display: block;
-    max-width: 100%;
-  }
-  
-  /*
-    6. Remove built-in form typography styles
-  */
-  input, button, textarea, select {
-    font: inherit;
-  }
-  
-  /*
-    7. Avoid text overflows
-  */
-  p, h1, h2, h3, h4, h5, h6 {
-    overflow-wrap: break-word;
-  }
-  
-  /*
-    8. Create a root stacking context
-  */
-  #root, #__next {
-    isolation: isolate;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  max-width: none;
+  isolation: isolate;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+img,
+strong,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+nav,
+section,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+a,
+ul,
+ol {
+  text-decoration: none;
+  font-style: normal;
+}
+ul,
+ol {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+input,
+textarea,
+button {
+  padding: 0;
+  border: none;
+  font-family: inherit;
+  color: currentColor;
+  background-color: transparent;
+}
+button:focus,
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+input {
+  font-family: inherit;
+  border: none;
+}
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
