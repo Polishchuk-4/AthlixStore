@@ -1,3 +1,6 @@
+import darkLogo from '../../../../public/image/darkLogo.png';
+import lightLogo from '../../../../public/image/darkLogo.png';
+
 import cn from 'classnames';
 import style from './Logo.module.scss';
 
@@ -12,11 +15,7 @@ export default function Logo({ topic, size }: logoProps) {
     <div className={classnames}>
       <img
         className={style.imageCardImg}
-        src={
-          topic === 'light'
-            ? '../../../../public/light-logo.png'
-            : '../../../../public/dark-logo.png'
-        }
+        src={topic === 'light' ? lightLogo : darkLogo}
         alt="Athlix logo"
       />
     </div>
