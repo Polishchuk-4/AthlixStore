@@ -1,0 +1,14 @@
+.preview {
+  height: 553px;
+  background-image: url('/public/image/preview.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.btn {
+  position: relative;
+  bottom: 40px;
+}

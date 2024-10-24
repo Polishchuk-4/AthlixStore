@@ -19,10 +19,5 @@
 }
 
 @mixin gradient() {
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 90, 15, 1) 54%,
-    rgba(255, 90, 15, 1) 90%
-  );
+  background: radial-gradient(circle, rgb(255, 156, 111), rgb(255, 90, 15));
 }
