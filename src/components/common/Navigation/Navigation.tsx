@@ -21,21 +21,21 @@ export default function Navigation() {
         <NavLink to="/" className={cnLink}>
           New
         </NavLink>
-        <NavLink to="/" className={cnLink}>
+        <NavLink to="/login" className={cnLink}>
           Men`s
         </NavLink>
-        <NavLink to="/" className={cnLink}>
+        <NavLink to="/womens" className={cnLink}>
           Women`s
         </NavLink>
-        <NavLink to="/" className={cnLink}>
+        <NavLink to="/sale" className={cnLink}>
           Sale
         </NavLink>
       </div>
       <div className={style.navButtons}>
-        <NavLink to="/" className={style.navBtn}>
+        <NavLink to="/" className={style.navLink}>
           <Icon icon="heart" />
         </NavLink>
-        <button>
+        <button className={style.navLink}>
           <Icon icon="cart" />
         </button>
       </div>

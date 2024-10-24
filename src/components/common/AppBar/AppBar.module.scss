@@ -20,3 +20,12 @@
   column-gap: 40px;
   align-items: center;
 }
+
+.navLink {
+  color: inherit;
+  transition: color 250ms ease;
+  cursor: pointer;
+}
+.navLink:hover {
+  color: $main-color;
+}
