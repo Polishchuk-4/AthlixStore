@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Layout from './components/Layout/Layout';
 
-const NewPage = lazy(() => import('./pages/HomePage/NewPage.tsx'));
+const NewPage = lazy(() => import('./pages/NewPage/NewPage.tsx'));
 const RegisterPage = lazy(() => import('./pages/RegisterPage/RegisterPage.tsx'));
 const LoginPage = lazy(() => import('./pages/LoginPage/LoginPage.tsx'));
 
