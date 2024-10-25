@@ -11,6 +11,10 @@
   border: none;
   cursor: pointer;
 
+  &.extraSmall {
+    @include button-styles(88px, 40px, 5px, 20px);
+  }
+
   &.small {
     @include button-styles(197px, 40px, 10px, 50px);
   }
