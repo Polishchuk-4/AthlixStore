@@ -4,7 +4,7 @@ import styles from './Button.module.scss';
 import cn from 'classnames';
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  size?: 'small' | 'medium' | 'big' | 'large';
+  size?: 'extraSmall' | 'small' | 'medium' | 'big' | 'large';
   icon?: ReactNode;
 }
 
