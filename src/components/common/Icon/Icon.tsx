@@ -15,7 +15,8 @@ type IconType =
   | 'eye-on'
   | 'eye-off'
   | 'search'
-  | 'arrow-right';
+  | 'arrow-right'
+  | 'copyRight';
 
 interface IconProps extends SVGProps<SVGSVGElement> {
   icon: IconType;
