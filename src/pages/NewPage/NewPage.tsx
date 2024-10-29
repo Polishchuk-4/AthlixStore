@@ -1,3 +1,4 @@
+import MailingSection from '../../components/pages/NewPage/MailingSection/MailingSection';
 import NewCollectionSection from '../../components/pages/NewPage/NewCollectionSection/NewCollectionSection';
 import PresentSection from '../../components/pages/NewPage/PresentSection/PresentSection';
 import PreviewSection from '../../components/pages/NewPage/PreviewSection/PreviewSection';
@@ -9,6 +10,7 @@ export default function NewPage() {
       <PreviewSection />
       <NewCollectionSection />
       <PresentSection />
+      <MailingSection />
     </main>
   );
 }
