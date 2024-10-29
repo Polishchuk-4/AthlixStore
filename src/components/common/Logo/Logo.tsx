@@ -1,5 +1,5 @@
 import darkLogo from '../../../../public/image/darkLogo.png';
-import lightLogo from '../../../../public/image/darkLogo.png';
+import lightLogo from '../../../../public/image/lightLogo.png';
 
 import cn from 'classnames';
 import style from './Logo.module.scss';
