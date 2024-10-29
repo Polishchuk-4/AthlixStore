@@ -18,6 +18,7 @@ export default function MailingForm() {
   const emailFieldId = useId();
 
   const handleSubmit = (values: FormValues, action: FormikHelpers<FormValues>) => {
+    console.log(values);
     action.resetForm();
   };
 
